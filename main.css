@@ -1,0 +1,68 @@
+body{
+    background-color: darkgoldenrod;
+}
+.contenedorGeneral{
+    width:100%; position:relative;
+    height: auto;
+    background-color: chocolate;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.frase{
+   
+    color:antiquewhite;
+    font-family: monospace;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+@media (max-width:320px)and (orientation:landscape){
+    .contenedorGeneral{
+        background-color: darkorchid;
+        color:chartreuse;
+        font-family: sans-serif;
+    }
+    .frase{
+        font-size: 15px;
+    }
+}
+@media (max-width:480px)and (orientation:landscape){
+    .contenedorGeneral{
+        background-color:aquamarine;
+        color:azure;
+        font-family:inherit;
+    }
+    .frase{
+        font-size: 25px;
+    }
+}
+@media  (max-width:768px)and (orientation:landscape){
+    .contenedorGeneral{
+        background-color:fuchsia;
+        color:bisque;
+        font-family:fantasy;
+    }
+    .frase{
+        font-size: 30px;
+    }
+}
+@media (max-width:1200px)and (orientation:landscape){
+    .contenedorGeneral{
+        background-color:coral;
+        color:white;
+        font-family:helvetica;
+    }
+    .frase{
+        font-size: 45px;
+    }
+}
+
+.imagen{
+    width:100%;  
+}
+
